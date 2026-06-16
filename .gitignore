@@ -1,16 +1,44 @@
-.DS_Store
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.env
+# 忽略所有图片文件
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+
+# 忽略数据集目录
+Rice_Leaf_AUG/
+data/
 dataset/
 datasets/
-models/
-weights/
-runs/
-outputs/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略模型权重
 *.pt
+*.pth
 *.onnx
+*.h5
+*.ckpt
+
+# 忽略其他大文件
 *.mp4
-*.csv
+*.avi
+*.zip
+*.tar
+*.gz
+
+# 忽略敏感信息
+*.env
+.env
+.env.*
+
+# 忽略训练输出
+runs/
+output/
+outputs/
+checkpoints/
+logs/
