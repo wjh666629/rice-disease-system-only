@@ -1,0 +1,29 @@
+{
+  "evaluation_time": "20260616_233912",
+  "total_samples": 10,
+  "correct_predictions": 10,
+  "accuracy": 1.0,
+  "average_latency_ms": 34.71648693084717,
+  "class_metrics": {
+    "细菌性叶枯病": {
+      "count": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "褐斑病": {
+      "count": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    },
+    "健康叶片": {
+      "count": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "纹枯病": {
+      "count": 3,
+      "correct": 3,
+      "accuracy": 1.0
+    }
+  }
+}

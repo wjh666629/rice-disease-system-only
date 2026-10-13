@@ -1,0 +1,100 @@
+{
+  "model": "best_model_final.pt",
+  "dataset": "val",
+  "total_accuracy": 0.9896373056994818,
+  "macro_f1": 0.9895407254782255,
+  "per_class_accuracy": {
+    "细菌性叶枯病": {
+      "accuracy": 1.0,
+      "precision": 0.9696969696969697,
+      "recall": 1.0,
+      "f1_score": 0.9846153846153847,
+      "support": 64
+    },
+    "褐斑病": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 65
+    },
+    "健康叶片": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 66
+    },
+    "稻瘟病": {
+      "accuracy": 0.96875,
+      "precision": 1.0,
+      "recall": 0.96875,
+      "f1_score": 0.9841269841269841,
+      "support": 64
+    },
+    "叶灼病": {
+      "accuracy": 1.0,
+      "precision": 0.9692307692307692,
+      "recall": 1.0,
+      "f1_score": 0.984375,
+      "support": 63
+    },
+    "纹枯病": {
+      "accuracy": 0.96875,
+      "precision": 1.0,
+      "recall": 0.96875,
+      "f1_score": 0.9841269841269841,
+      "support": 64
+    }
+  },
+  "confusion_matrix": [
+    [
+      64,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      65,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      66,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      62,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      63,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      62
+    ]
+  ]
+}

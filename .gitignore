@@ -42,3 +42,10 @@ output/
 outputs/
 checkpoints/
 logs/
+
+# 忽略 IDE 和虚拟环境
+.idea/
+.venv/
+
+# 忽略第三方论文资料
+论文/

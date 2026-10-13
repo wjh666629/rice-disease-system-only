@@ -1,0 +1,39 @@
+{
+  "evaluation_time": "20260616_234050",
+  "total_samples": 20,
+  "correct_predictions": 20,
+  "accuracy": 1.0,
+  "average_latency_ms": 10.95348596572876,
+  "class_metrics": {
+    "细菌性叶枯病": {
+      "count": 7,
+      "correct": 7,
+      "accuracy": 1.0
+    },
+    "褐斑病": {
+      "count": 5,
+      "correct": 5,
+      "accuracy": 1.0
+    },
+    "健康叶片": {
+      "count": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "稻瘟病": {
+      "count": 1,
+      "correct": 1,
+      "accuracy": 1.0
+    },
+    "叶灼病": {
+      "count": 2,
+      "correct": 2,
+      "accuracy": 1.0
+    },
+    "纹枯病": {
+      "count": 4,
+      "correct": 4,
+      "accuracy": 1.0
+    }
+  }
+}
