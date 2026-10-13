@@ -49,3 +49,7 @@ logs/
 
 # 忽略第三方论文资料
 论文/
+
+# 只保留 README.md，其他 md 文档为本地资料
+*.md
+!README.md
